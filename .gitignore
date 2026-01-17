@@ -1,4 +1,4 @@
 vendor
 credentials.json
-base.php
-config.php
+api/base.php
+api/config.php
