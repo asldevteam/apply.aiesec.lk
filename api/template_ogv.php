@@ -10,7 +10,7 @@ if (isset($_GET['track'])) {
 	$track = $_GET['track'];
 }
 
-include_once "base.php";
+include_once(__DIR__ . '/base.php');
 
 ?>
 <!DOCTYPE html>

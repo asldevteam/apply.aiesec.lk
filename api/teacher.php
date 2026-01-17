@@ -8,6 +8,6 @@ $product_name = "Global Teacher";
 $product_name_up = "GLOBAL TEACHER";
 
 
-include_once("template.php")
+include_once(__DIR__ . "/template.php")
 
 ?>

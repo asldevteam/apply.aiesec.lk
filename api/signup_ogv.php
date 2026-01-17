@@ -2,8 +2,8 @@
  header('Access-Control-Allow-Origin: *');
 
 
- include_once "./config.php";
- include_once "./sheet_ogv.php";
+ include_once(__DIR__ . '/./config.php');
+ include_once(__DIR__ . '/./sheet_ogv.php');
 
 
  if (!isset($_POST['product']) ||

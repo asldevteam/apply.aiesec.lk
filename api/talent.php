@@ -7,6 +7,6 @@ $color = "#0cb9c1";
 $product_name = "Global Talent";
 $product_name_up = "GLOBAL TALENT";
 
-include_once("template.php")
+include_once(__DIR__ . "/template.php")
 
 ?>

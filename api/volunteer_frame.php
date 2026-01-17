@@ -14,7 +14,7 @@ $product_name_up = $_GET["product_name_up"];
 $color = $_GET["color"];
 $product = $_GET["product"];
 
-include_once "base.php";
+include_once(__DIR__ . '/base.php');
 
 ?>
 <!DOCTYPE html>

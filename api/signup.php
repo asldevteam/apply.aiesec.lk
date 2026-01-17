@@ -3,9 +3,9 @@
     header('Access-Control-Allow-Origin: *');
 
 
-    include_once "config.php";
-    include_once "sheets.php";
-    include_once "drive.php";
+    include_once(__DIR__ . '/config.php');
+    include_once(__DIR__ . '/sheets.php');
+    include_once(__DIR__ . '/drive.php');
 
     if (!isset($_POST['product']) ||
         !isset($_POST['first_name']) ||
