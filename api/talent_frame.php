@@ -199,7 +199,7 @@ width:100%; height:100%; z-index:999; text-align: center; vertical-align: middle
 						<div class="rs-select2 js-select-simple select">
 							<select id="institute_select" name="institute" value="">
 								<option disabled="disabled" selected="selected" hidden>Choose option</option>
-								<?= file_get_contents("../alignments.txt"); ?>
+								<?= file_get_contents(__DIR__ . '/alignments.txt'); ?>
 							</select>
 							<div class="select-dropdown"></div>
 						</div>
